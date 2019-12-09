@@ -13,6 +13,7 @@ public class MySQLConnUtils
 	public static Properties loadPropertiesFile() throws Exception
 	{
 		Properties prop=new Properties();
+		//importing a properties file for establishing connection with the db
 		InputStream in=new FileInputStream("C:\\Users\\User\\workspace\\SampleWebApp\\src\\resources\\jdbc.properties");
 		prop.load(in);
 		in.close();
