@@ -2,6 +2,7 @@ package com.face.BO;
 
 public class ProductBO
 {
+        //generating all the getters and setters in this class
 	private int id;
 	public int getId() {
 		return id;
